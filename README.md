@@ -1,6 +1,14 @@
 ## Poll Booth
 This is a decentralized applcation built using Solidity and React. 
 
+### Features of this application
+1. Voters can only be registered by one specific account.
+2. Voters won't be registered by name. Only their addresses. Hence, 1 account can only have one voter.
+3. Candidates can register themselves. They can enter their name and click Register and a candidate by the name written would be registered at that address.
+4. One address can only have one candidate to it.
+5. Vote can only be casted from the accounts registered as voters.
+6. Once the vote is casted from an address, another vote cannot be casted to maintain integrity of the application.
+
 ### Setting up Ganache
 1. Open ganache. Click on Create New Workspace.
 2. On the truffle project menu, add the truffle-config.js file of this project.
@@ -16,12 +24,12 @@ This is a decentralized applcation built using Solidity and React.
 #### Setting up the local development environment
 Run the ganache Blockchain and type the following commands in terminal:
 
-git clone https://github.com/arpitkarnatak/election-dapp.git
-npm install
-truffle compile
-truffle migrate (or truffle migrate --reset)
-cd client 
-npm install
-npm start
+git clone https://github.com/arpitkarnatak/election-dapp.git \
+npm install \
+truffle compile \
+truffle migrate (or truffle migrate --reset) \
+cd client \
+npm install \
+npm start 
 
 (truffle migrate if using for the first time. truffle migrate --reset for everytime you want to create a new contract instance and wipe out the old data)
