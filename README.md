@@ -1,5 +1,5 @@
 ## Poll Booth
-This is a decentralized applcation built using Solidity and React. 
+This is a decentralized applcation built using Solidity and React.
 
 ### Features of this application
 1. Voters can only be registered by one specific account.
@@ -8,6 +8,10 @@ This is a decentralized applcation built using Solidity and React.
 4. One address can only have one candidate to it.
 5. Vote can only be casted from the accounts registered as voters.
 6. Once the vote is casted from an address, another vote cannot be casted to maintain integrity of the application.
+
+
+### App Screenshot
+![](https://github.com/arpitkarnatak/election-dapp/blob/main/dapp-ss.PNG)
 
 ### Setting up Ganache
 1. Open ganache. Click on Create New Workspace.
