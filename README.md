@@ -36,4 +36,5 @@ cd client \
 npm install \
 npm start 
 
-(truffle migrate if using for the first time. truffle migrate --reset for everytime you want to create a new contract instance and wipe out the old data)
+(truffle migrate if using for the first time. truffle migrate --reset for everytime you want to create a new contract instance and wipe out the old data.)
+(For running the applications after that, just start the Ganache workspace created and go to the client folder and npm start)
