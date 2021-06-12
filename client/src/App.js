@@ -26,8 +26,6 @@ function App() {
     LoadBlockchainData()
   },[])
 
-
-  console.log(Candidates)
   const LoadWeb3 = async () =>{
     if (window.ethereum){
     window.web3 = new Web3(window.ethereum)
@@ -106,7 +104,6 @@ function App() {
     catch{
       window.alert("Action not allowed")
     }
-    setCandidateID()
   }
 
   async function get_winner(){
@@ -183,13 +180,13 @@ function App() {
           </div>
 
 
-          {Owner === CurrentAccount && <div className="features">
+          <div className="features">
               <h3 className='features_head'>Get Winner</h3>
               <div className="features_body">
                   <button onClick={()=>get_winner().then(()=>setshowWinner(!showWinner))}>Get Winner</button>
                   <h4>{showWinner && <div>{Winner.name} is leading with {Winner.votes}</div>}</h4>
               </div>
-          </div>}
+          </div>
 
       </div>
 
@@ -210,6 +207,7 @@ function App() {
         <li>Enter the number next to candidate of your choice to cast the vote. Only one vote per address is allowed.</li>
         <li>Winners can be checked by anyone, but Winner option would be blocked for both voters and candidates. It will only be visible to the organizers.</li>
       </div> }
+
 
       {showOwner && <div>{Owner}</div>}
 
