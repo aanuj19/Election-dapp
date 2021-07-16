@@ -30,13 +30,19 @@ This is a decentralized applcation built using Solidity and React.
 #### Setting up the local development environment
 Run the ganache Blockchain and type the following commands in terminal:
 
-git clone https://github.com/arpitkarnatak/election-dapp.git \
-npm install \
-truffle compile \
-truffle migrate (or truffle migrate --reset) \
-cd client \
-npm install \
-npm start 
+`git clone https://github.com/arpitkarnatak/election-dapp.git `
+
+`npm install `
+
+`truffle compile` 
+
+`truffle migrate (or truffle migrate --reset) `
+
+`cd client `
+
+`npm install` 
+
+`npm start `
 
 (truffle migrate if using for the first time. truffle migrate --reset for everytime you want to create a new contract instance and wipe out the old data.) \
 (For running the application anytime afterwards, just start the Ganache workspace created and go to the client folder and npm start)
