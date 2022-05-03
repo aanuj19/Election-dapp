@@ -42,3 +42,12 @@ npm start
 
 (truffle migrate if using for the first time. truffle migrate --reset for everytime you want to create a new contract instance and wipe out the old data.) \
 (For running the application anytime afterwards, just start the Ganache workspace created and go to the client folder and npm start)
+
+
+
+1. Ganache Workspace Launch 
+2. truffle migrate --reset 
+3. cd client && npm run start 
+4. Add accounts on Metamask
+5. Add Voters & Candidates on App
+6. Voting and App interactions 

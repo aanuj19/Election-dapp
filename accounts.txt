@@ -1,0 +1,48 @@
+Starting RPC server
+
+Available Accounts
+==================
+(0) 0xcB07Ab1D745d7afC06ed929739237995f9C60d67 (1000 ETH)
+(1) 0x21C7d88CB677D2180b6448237fe7D94FE3cD68Ca (1000 ETH)
+(2) 0x8F73334CE707A8F1BbA83ea4398632D44a37e090 (1000 ETH)
+(3) 0xe1Cc7AEcb4d4a32AB651475b3Fe2DEba89291Ae9 (1000 ETH)
+(4) 0xff2C3021D3bCdA64465B9f5C389855d343A60311 (1000 ETH)
+(5) 0xF81b3588D295a6C542f441f6F645a786681C1C42 (1000 ETH)
+(6) 0x940A8D762f0D3D7b2F16aeaD774d35961100bE57 (1000 ETH)
+(7) 0x7ad81AdA0EE71B201eE212b7fec57c43d37AA4dc (1000 ETH)
+(8) 0x09396976724a8922f2cE8ebB2f95659b8d5A5de0 (1000 ETH)
+(9) 0x844DE2990c181dDE940f00968095c298fb8B1A3c (1000 ETH)
+
+Private Keys
+==================
+(0) 0xbda1a43d3b81c3700ce80c68147d62c8f00c7e59f05faf66fcc71223205ba7c7
+(1) 0x33b7d489204403b77be5f9272c9d3b8c34fa505673e6f816b8b78301d6c79f5d
+(2) 0x40a9b6cc81ab5a5f57749f3d0d438ecd3f6b6015dec23c504ede4b252c13c955
+(3) 0xc4447ac8fadab9733c8a18a0183aafb878d75d91ad1f387086de92bdc3033eb3
+(4) 0x76c097489f760e11529b40a575ef6512c400752aed268b5ed9b09c52ffca7d03
+(5) 0xd36cada514c138b05771bb0a7fc9e808c621278299bd911329b532d418558de7
+(6) 0x69e4a55ef55a2b0eba054edfd9f5af0dacce4c9b0bc320a7cfb92a1827a0f8a7
+(7) 0x0baccd9fca9de9e680f60bb32dde0ea057e0150a930e37c33f86936ed6a0d229
+(8) 0xecb50848fad80aebf2c0a6b809d25a4911023add58616175da576e09423db540
+(9) 0xf840bb7b01bdfedbcc22d94e3e8fb6d30725b1d8185b270fb052892243150caf
+
+HD Wallet
+==================
+Mnemonic:      nature punch gossip ticket abandon scale like stock tooth deny shiver victory
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Default Gas Price
+==================
+2000000000
+
+BlockGas Limit
+==================
+30000000
+
+Call Gas Limit
+==================
+50000000
+
+Chain Id
+==================
+1337
